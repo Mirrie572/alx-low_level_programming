@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - a program prints base 16 numbers
+ * Return: 0 impy success
+ */
 int main(void)
 {
 char digit;
