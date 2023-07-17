@@ -9,16 +9,19 @@ int main(void)
 char lowercase = 'a';
 char uppercase = 'A';
 
-while (lowercase <= 'z' && uppercase <= 'Z')
+while (lowercase <= 'z')
 {
 putchar(lowercase);
-putchar(uppercase);
 lowercase++;
+}
+
+while (uppercase <= 'Z')
+{
+putchar(uppercase);
 uppercase++;
 }
 
 putchar('\n');
 
 return (0);
-
 }
