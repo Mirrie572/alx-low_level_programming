@@ -8,7 +8,7 @@
 * @c: variable
 * Return: 0
 */
-int largest_number(int a, int b, int c);
+
 int main(void)
 {
 int a, b, c;
