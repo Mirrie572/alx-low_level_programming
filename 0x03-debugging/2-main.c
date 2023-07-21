@@ -3,6 +3,9 @@
 
 /**
 * main - prints the largest of 3 integers
+* @a: is one of the variables
+* @b: avariable
+* @c: variable
 * Return: 0
 */
 int largest_number(int a, int b, int c);
