@@ -3,7 +3,7 @@
 /**
 * main - causes an infinite loop
 * Return: 0
-* @//o\/n: should be ignored
+* @\\o/\n" : should be ignored
 */
 
 int main(void)
@@ -18,6 +18,7 @@ i = 0;
 * {
 * putchar(i);
 * }
+* is an emoticon
 */
 printf("Infinite loop avoided! \\o/\n");
 return (0);
