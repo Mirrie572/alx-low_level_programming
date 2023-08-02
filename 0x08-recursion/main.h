@@ -1,6 +1,7 @@
 #ifndef MY_HEADER_H
 #define MY_HEADER_H
 void _puts_recursion(char *s);
+int actual_sqrt_recursion(int n, int i);
 int _putchar(char c);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
