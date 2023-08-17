@@ -7,7 +7,7 @@
  * @size: size of elements in array
  * @cmp: pointer to func of one of the 3 in main
  *
- * return: -1 if no elem match
+ * Return: -1 if no elem match
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
