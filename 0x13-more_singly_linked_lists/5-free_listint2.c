@@ -9,8 +9,9 @@ void free_listint2(listint_t **head)
 {
 	listint_t *current;
 	/* Declare a pointer for traversing the list */
-if(head == NULL)
-	return;
+
+	if (head == NULL)
+		return;
 
 	/* Traverse the linked list */
 	while (*head != NULL)
