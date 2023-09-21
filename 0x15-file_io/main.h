@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <fcntl.h>
+#include <elf.h>
+#include <errno.h>
 
 /* prototypes to be used */
 
